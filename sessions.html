@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Begin Head -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!-- Basic --><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Sessions</title>
+	<!-- Web Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet" /><!-- Vendor Styles -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" />
+	<link href="vendor/themify/themify.css" rel="stylesheet" type="text/css" />
+	<link href="vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css" /><!-- Theme Styles -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/global/global.css" rel="stylesheet" type="text/css" /><!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+</head>
+<!-- End Head --><!-- Body -->
+<body><!--========== HEADER ==========-->
+	<header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
+		<!-- Navbar -->
+		<nav style="width: 100%" class="s-header-v2__navbar ">
+			<div  style="width: 100%" class="container ">
+				<!-- Navbar Row -->
+				<div class="s-header-v2__navbar-row" >
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="s-header-v2__navbar-col">
+						<button type="button" class="collapsed s-header-v2__toggle" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
+							<span class="s-header-v2__toggle-icon-bar"></span>
+						</button>
+					</div>
+  
+					<div class="s-header-v2__navbar-col s-header-v2__navbar-col-width--180">
+						<!-- Logo -->
+						<div style="" class="s-header-v2__logo">
+							<a href="index.html" class="s-header-v2__logo-link">
+								<img class="s-header-v2__logo-img s-header-v2__logo-img--default" src="img/IEEE-STC-logo-orange-white.png" style="max-height:105px" alt="">
+								<img class="s-header-v2__logo-img s-header-v2__logo-img--shrink" src="img/IEEE-STC-logo-color.png" style="max-height:105px" alt="">
+							</a>
+						</div>
+						<!-- End Logo -->
+					</div>
+  
+					<div class="s-header-v2__navbar-col s-header-v2__navbar-col--right" style="">
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse s-header-v2__navbar-collapse" id="nav-collapse">
+							<ul class="s-header-v2__nav ">
+								<!-- Home -->
+								<li class="dropdown s-header-v2__nav-item s-header-v2__dropdown-on-hover">
+									<a href="index.html" class="dropdown-toggle s-header-v2__nav-link " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About STC <span class="g-font-size-10--xs g-margin-l-5--xs ti-angle-down"></span></a>
+									<ul class="dropdown-menu s-header-v2__dropdown-menu">
+										<li><a href="index.html" class="s-header-v2__dropdown-menu-link ">What is STC & Location</a></li>
+										<!--<li><a href="index.html#attend" class="s-header-v2__dropdown-menu-link">Why attend</a></li>-->
+										<li><a href="about.html" class="s-header-v2__dropdown-menu-link">Our History</a></li>
+										<li><a  class="s-header-v2__dropdown-menu-link ">Daily Highlights</a></li>
+									</ul>
+								</li>
+								<!-- End Home -->
+  
+								<!-- Pages -->
+								<li class="dropdown s-header-v2__nav-item s-header-v2__dropdown-on-hover">
+									<a href="javascript:void(0);" class="dropdown-toggle s-header-v2__nav-link " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Organization <span class="g-font-size-10--xs g-margin-l-5--xs ti-angle-down"></span></a>
+									<ul class="dropdown-menu s-header-v2__dropdown-menu">
+										<li><a href="conorg.html" class="s-header-v2__dropdown-menu-link">Organizing Committee</a></li>
+										<li><a href="conorg.html#procom" class="s-header-v2__dropdown-menu-link">Program Committee</a></li>
+										<li><a href="contact.html" class="s-header-v2__dropdown-menu-link">Contact Us</a></li>
+									</ul>
+								</li>
+								<li class="dropdown s-header-v2__nav-item s-header-v2__dropdown-on-hover">
+									<a href="javascript:void(0);" class="dropdown-toggle s-header-v2__nav-link -is-active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Program <span class="g-font-size-10--xs g-margin-l-5--xs ti-angle-down"></span></a>
+									<ul class="dropdown-menu s-header-v2__dropdown-menu">
+										<li><a href="keynotes.html" class="s-header-v2__dropdown-menu-link">Keynotes</a></li>
+										<li><a href="sessions.html" class="s-header-v2__dropdown-menu-link  -is-active">Sessions</a></li>
+										<li><a href="tutorials.html" class="s-header-v2__dropdown-menu-link">Tutorials</a></li>
+										<li><a href="proceedings.html" class="s-header-v2__dropdown-menu-link">Proceedings</a></li>
+									</ul>
+								</li>
+								<li class="dropdown s-header-v2__nav-item s-header-v2__dropdown-on-hover">
+									<a href="javascript:void(0);" class="dropdown-toggle s-header-v2__nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sponsors <span class="g-font-size-10--xs g-margin-l-5--xs ti-angle-down"></span></a>
+									<ul class="dropdown-menu s-header-v2__dropdown-menu">
+										<li><a  href="sponsors.html" class="s-header-v2__dropdown-menu-link ">Our Sponsors</a></li>
+										<li><a href="exhibitors.html" class="s-header-v2__dropdown-menu-link">Become a Sponsor</a></li>
+										<li><a  class="s-header-v2__dropdown-menu-link">Exhibitors List</a></li>
+  
+									</ul>
+								</li>
+								<li class="dropdown s-header-v2__nav-item s-header-v2__dropdown-on-hover">
+									<a href="javascript:void(0);" class="dropdown-toggle s-header-v2__nav-link " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration & Submission <span class="g-font-size-10--xs g-margin-l-5--xs ti-angle-down"></span></a>
+									<ul class="dropdown-menu s-header-v2__dropdown-menu">
+										<!--<li><a  class="s-header-v2__dropdown-menu-link">Notify Me</a></li>-->
+										<li><a  href="registration.html" class="s-header-v2__dropdown-menu-link">STC Registration</a></li>
+										<li><a href="submission.html" class="s-header-v2__dropdown-menu-link">Paper Submission</a></li>
+									</ul>
+								</li>
+								<li class="dropdown s-header-v2__nav-item s-header-v2__dropdown-on-hover">
+									<a href="javascript:void(0);" class="dropdown-toggle s-header-v2__nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Attendee Info <span class="g-font-size-10--xs g-margin-l-5--xs ti-angle-down"></span></a>
+									<ul class="dropdown-menu s-header-v2__dropdown-menu">
+										<!--<li><a href="travel.html" class="s-header-v2__dropdown-menu-link">Hotels and Travel</a></li>-->
+										<li><a  class="s-header-v2__dropdown-menu-link">Mobile App</a></li>
+										<li><a  class="s-header-v2__dropdown-menu-link">Attendee Blog</a></li>
+									</ul>
+								</li>
+								<!-- End Pages -->
+  
+  
+							</ul>
+						</div>
+						<!-- End Nav Menu -->
+					</div>
+				</div>
+				<!-- End Navbar Row -->
+			</div>
+		</nav>
+	</header>
+<!--========== END HEADER ==========--><!--========== PROMO BLOCK ==========-->
+
+<div class="g-bg-position--center js__parallax-window" style="background: url(img/black2.jpg) 50% 0 no-repeat fixed;">
+<div class="g-container--md g-text-center--xs g-padding-y-100--xs">
+<h1 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white g-letter-spacing--1 " style="position:relative; top: 60px;">Sessions</h1>
+</div>
+</div>
+
+<div class="container " id="js__scroll-to-section">
+
+<div class="g-padding-y-25--xs  ">
+<table class="table">
+	<thead>
+		<tr>
+			<th>Presenters/Authors</th>
+			<th>Title</th>
+            <th>Theme</th>
+            <th>Date</th>
+            <th>Paper Sequence</th>
+            <th>Start (EST)</th>
+            <th>End (EST)</th>
+		</tr>
+	</thead>
+	<tbody>
+        <tr>
+            <td><b>Christian Hansen, c.k.hansen@ieee.org</b></td>
+            <td><b>VIRTUAL CONFERENCE ROOM OPENS</b></td>
+            <td></td>
+            <td>10/3/2022</td>
+            <td></td>
+            <td><b>9:00</b></td>
+            <td><b></b></td>
+		</tr>
+		<tr>
+            <td><b>Irena Bojanova, Jeff Voas - General Chairs</b></td>
+            <td><b>Opening STC 2022</b></td>
+            <td></td>
+            <td>10/3/2022</td>
+            <td></td>
+            <td><b>9:10</b></td>
+            <td><b>9:20</b></td>
+		</tr>
+        <tr>
+            <td><b>M S Raunak, Rick Kuhn - Program Chairs</b></td>
+            <td><b>Program Committee Remarks</b></td>
+            <td></td>
+            <td>10/3/2022</td>
+            <td></td>
+            <td><b>9:20</b></td>
+            <td><b>9:30</b></td>
+		</tr>
+		<tr>
+            <td><b>Barbara Guttman National Institute of Standards and Technology</b></td>
+            <td><b>KEYNOTE 1: A NIST Scientific Foundation Review of Digital Forensics</b></td>
+            <td></td>
+            <td>10/3/2022</td>
+            <td><b>KEYNOTE 1</b></td>
+            <td><b>9:30</b></td>
+            <td><b>10:15</b></td>
+		</tr>
+        <tr>
+            <td>Zane Varner, Cerag Oguztuzun and Feng Long</td>
+            <td>Neural Model for Generating Method Names from Combined Contexts</td>
+            <td>AI</td>
+            <td><b>10/3/2022</b></td>
+            <td><b>1</b></td>
+            <td><b>10:15</b></td>
+            <td><b>10:40</b></td>
+		</tr>
+        <tr>
+            <td>BREAK</td>
+            <td></td>
+            <td></td>
+            <td><b></b></td>
+            <td><b>Break</b></td>
+            <td><b>10:40</b></td>
+            <td><b>11:00</b></td>
+		</tr>
+        <tr>
+            <td>Francis Durso, M S Raunak, Rick Kuhn and Raghu Kacker</td>
+            <td>Analyzing Failures in AI and Learning Systems (FAILS)</td>
+            <td>AI</td>
+            <td><b>10/3/2022</b></td>
+            <td><b>2</b></td>
+            <td><b>11:00</b></td>
+            <td><b>11:25</b></td>
+		</tr>
+        <tr>
+            <td>Md Nazmul Kabir Sikder, Feras Batarseh, Pei Wang and Nitish Gorentala</td>
+            <td>Model-Agnostic Scoring Methods for Artificial Intelligence Assurance</td>
+            <td>AI</td>
+            <td><b>10/3/2022</b></td>
+            <td><b>3</b></td>
+            <td><b>11:25</b></td>
+            <td><b>11:50</b></td>
+		</tr>
+        <tr>
+            <td>LUNCH BREAK</td>
+            <td></td>
+            <td></td>
+            <td><b></b></td>
+            <td><b>Lunch Break</b></td>
+            <td><b>12:15</b></td>
+            <td><b>1:00</b></td>
+		</tr>
+        <tr>
+            <td>Sai Gurrapu, Lifu Huang and Feras Batarseh</td>
+            <td>ExClaim: Explainable Neural Claim Verification Using Rationalization</td>
+            <td>AI</td>
+            <td><b>10/3/2022</b></td>
+            <td><b>4</b></td>
+            <td><b>1:00</b></td>
+            <td><b>1:25</b></td>
+		</tr>
+        <tr>
+            <td>Chelsea Wang, Jaganmohan Chandrasekaran, Flora Haberkorn, Yan Dong, Munisamy Gopinath and Feras Batarseh</td>
+            <td>DeepFarm: AI-Driven Management of Farm Production using Explainable Causality</td>
+            <td>AI</td>
+            <td><b>10/3/2022</b></td>
+            <td><b>5</b></td>
+            <td><b>1:25</b></td>
+            <td><b>1:50</b></td>
+		</tr>
+        <tr>
+            <td>Christopher Autry, Bill Roscoe and Mykhailo Magal - EU</td>
+            <td>Bootstrapping IoT authentication using aggregated local knowledge and self-contained triangulation methodologies</td>
+            <td>Security</td>
+            <td><b>10/4/2022</b></td>
+            <td><b>16</b></td>
+            <td><b>1:50</b></td>
+            <td><b>2:15</b></td>
+		</tr>
+        
+        <tr>
+            <td>Tyler Cody</td>
+            <td>A Layered Reference Model for Penetration Testing with Reinforcement Learning and Attack Graphs</td>
+            <td>AI + SE</td>
+            <td><b>10/3/2022</b></td>
+            <td><b>7</b></td>
+            <td><b>2:15</b></td>
+            <td><b>2:40</b></td>
+		</tr>
+        <tr>
+            <td>BREAK</td>
+            <td></td>
+            <td></td>
+            <td><b></b></td>
+            <td><b>Break</b></td>
+            <td><b>2:40</b></td>
+            <td><b>3:00</b></td>
+		</tr>
+        <tr>
+            <td>Luke Biersmith and Phillip Laplante</td>
+            <td>Introduction to AI Assurance for Policy Makers</td>
+            <td>AI</td>
+            <td><b>10/3/2022</b></td>
+            <td><b>8</b></td>
+            <td><b>3:00</b></td>
+            <td><b>3:25</b></td>
+		</tr>
+        <tr>
+            <td>Linda Wilbanks</td>
+            <td>Cyber Security Risk Management - Tutorial</td>
+            <td><b>Security</b></td>
+            <td><b>10/3/2022</b></td>
+            <td><b>TUTORIAL</b></td>
+            <td><b>3:30</b></td>
+            <td><b>4:45</b></td>
+		</tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+		</tr>
+        <tr>
+            <td><b>Markus Schordan, Lawrence Livermore National Laboratory</b></td>
+            <td><b>KEYNOTE 2: How Software Verification Competitions Pave the Road for Better Tools</b></td>
+            <td></td>
+            <td><b>10/4/2022</b></td>
+            <td><b>KEYNOTE 2</b></td>
+            <td><b>9:15</b></td>
+            <td><b>10:00</b></td>
+		</tr>
+        <tr>
+            <td>Philippe Dessauw, Aurelien Delaitre, Hialo Muniz Carvalho and Vadim Okun</td>
+            <td>A Modular and Expandable Testbed for Evaluating ML-based Bug Finders</td>
+            <td>AI + SE</td>
+            <td><b>10/4/2022</b></td>
+            <td><b>9</b></td>
+            <td><b>10:00</b></td>
+            <td><b>10:25</b></td>
+		</tr>
+        <tr>
+            <td>Marios-Stavros Grigoriou and Kostas Kontogiannis</td>
+            <td>Towards Identifying Project Features That Make Machine-Learning Based Fault Proneness Analysis Successful</td>
+            <td>AI + SE</td>
+            <td><b>10/4/2022</b></td>
+            <td><b>10</b></td>
+            <td><b>10:25</b></td>
+            <td><b>10:50</b></td>
+		</tr>
+        <tr>
+            <td>BREAK</td>
+            <td></td>
+            <td></td>
+            <td><b></b></td>
+            <td><b>Break</b></td>
+            <td><b>10:50</b></td>
+            <td><b>11:00</b></td>
+		</tr>
+        
+        <tr>
+            <td>Andres Osamu Rodriguez Ishida, Kostas Kontogiannis and Chris Brealey</td>
+            <td>Extracting Micro Service Dependencies Using Log Analysis</td>
+            <td>Networks + SE</td>
+            <td><b>10/4/2022</b></td>
+            <td><b>14</b></td>
+            <td><b>11:00</b></td>
+            <td><b>11:25</b></td>
+		</tr>
+        <tr>
+            <td>Robin Buchta, Felix Heine and Carsten Kleiner - EU</td>
+            <td>Challenges and Peculiarities of Attack Detection in Virtual Power Plants</td>
+            <td>Networks</td>
+            <td><b>10/4/2022</b></td>
+            <td><b>12</b></td>
+            <td><b>11:25</b></td>
+            <td><b>11:50</b></td>
+		</tr>
+        <tr>
+            <td>Hans-Martin von Stockhausen and Frances Paulisch - EU</td>
+            <td>Cybersecurity Vulnerability Management and Software Bill-of-Materials</td>
+            <td>Networks</td>
+            <td><b>10/4/2022</b></td>
+            <td><b>13</b></td>
+            <td><b>11:50</b></td>
+            <td><b>12:15</b></td>
+		</tr>
+        <tr>
+            <td>LUNCH BREAK</td>
+            <td></td>
+            <td></td>
+            <td><b></b></td>
+            <td><b>Longer Lunch Break</b></td>
+            <td><b>12:15</b></td>
+            <td><b>1:25</b></td>
+		</tr>
+        
+        <tr>
+            <td>Yuri Bobbert and Jeroen Scheerder - EU</td>
+            <td>Zero Trust Validation: from practical approaches to theory</td>
+            <td>Security</td>
+            <td><b>10/4/2022</b></td>
+            <td><b>15</b></td>
+            <td><b>1:25</b></td>
+            <td><b>1:50</b></td>
+		</tr>
+        <tr>
+            <td>Phillip Laplante, Mohamad Kassab and Joanna DeFranco</td>
+            <td>Proxy Verification and Validation For Critical AI Systems</td>
+            <td>AI</td>
+            <td><b>10/3/2022</b></td>
+            <td><b>6</b></td>
+            <td><b>1:50</b></td>
+            <td><b>2:15</b></td>
+		</tr>
+        <tr>
+            <td>Peter Mell</td>
+            <td>The Generation of Software Security Scoring Systems Leveraging Human Expert Opinion</td>
+            <td>Security</td>
+            <td><b>10/4/2022</b></td>
+            <td><b>17</b></td>
+            <td><b>2:15</b></td>
+            <td><b>2:40</b></td>
+		</tr>
+        <tr>
+            <td>BREAK</td>
+            <td></td>
+            <td></td>
+            <td><b></b></td>
+            <td><b>Break</b></td>
+            <td><b>2:40</b></td>
+            <td><b>3:00</b></td>
+		</tr>
+        <tr>
+            <td>Igor Khokhlov, Ahmet Okutan, Ryan Bryla, Steven Simmons and Mehdi Mirakhorli</td>
+            <td>Automated Extraction of Software Names from Vulnerability Reports using LSTM and Expert System</td>
+            <td>Security</td>
+            <td><b>10/4/2022</b></td>
+            <td><b>18</b></td>
+            <td><b>3:00</b></td>
+            <td><b>3:25</b></td>
+		</tr>
+        <tr>
+            <td>Julio Opolski Netto, Robison Cris Brito, Fabio Favarim, Luis Felipe Priester and Eduardo Todt</td>
+            <td>Implementing a Communication Network between Bases Station applied for Group of Drones</td>
+            <td>Security</td>
+            <td><b>10/4/2022</b></td>
+            <td><b>19</b></td>
+            <td><b>3:25</b></td>
+            <td><b>3:50</b></td>
+		</tr>
+        <tr>
+            <td>Ricardo Luiz Sponchiado, Robison Cris Brito, and Fábio Luiz Bertotti</td>
+            <td>Mobile System for Acquisition and Processing of Body Sounds</td>
+            <td>Security</td>
+            <td><b>10/4/2022</b></td>
+            <td><b>20</b></td>
+            <td><b>3:50</b></td>
+            <td><b>4:15</b></td>
+		</tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+		</tr>
+        <tr>
+            <td><b>Tiziana Margaria, University of Limerick, Lero, Confirm, HRI, Ireland</b></td>
+            <td><b>KEYNOTE 3: The Digital Thread as Digital Transformation of Software-knit Ecosystems</b></td>
+            <td></td>
+            <td><b>10/5/2022</b></td>
+            <td><b>KEYNOTE 3</b></td>
+            <td><b>9:15</b></td>
+            <td><b>10:00</b></td>
+		</tr>
+        <tr>
+            <td>Frances Paulisch - EU</td>
+            <td>Software Architecture – one of the biggest levers for modern software engineering</td>
+            <td>SW Eng</td>
+            <td><b>10/5/2022</b></td>
+            <td><b>21</b></td>
+            <td><b>10:00</b></td>
+            <td><b>10:25</b></td>
+		</tr>
+        <tr>
+            <td>Prabuddh Gupta, Divya Balakrishna, Rohit Shende, Vikram Raina, Shiva Thamilavel, Mitesh Sharma and Lalitha Sripada</td>
+            <td>Bayesian Approach for Regression Testing (BART) using Test Suite Prioritization</td>
+            <td>SW Eng</td>
+            <td><b>10/5/2022</b></td>
+            <td><b>22</b></td>
+            <td><b>10:25</b></td>
+            <td><b>10:50</b></td>
+		</tr>
+        <tr>
+            <td>BREAK</td>
+            <td></td>
+            <td></td>
+            <td><b></b></td>
+            <td><b>Break</b></td>
+            <td><b>10:50</b></td>
+            <td><b>11:00</b></td>
+		</tr>
+        <tr>
+            <td>Emily Arseneault, Daniel Boudreau, Jarred Lien and Gregory Young</td>
+            <td>Experience-Based Guidelines for Effective Planning & Management of Software Integration & Test Activities in the Agile/DevSecOps Environment</td>
+            <td>SW Eng</td>
+            <td><b>10/5/2022</b></td>
+            <td><b>23</b></td>
+            <td><b>11:00</b></td>
+            <td><b>11:25</b></td>
+		</tr>
+        <tr>
+            <td>William Andel</td>
+            <td>Continuous Documentation: Automating Document Preparation with your DevSecOps Pipeline</td>
+            <td>SW Eng</td>
+            <td><b>10/5/2022</b></td>
+            <td><b>24</b></td>
+            <td><b>11:25</b></td>
+            <td><b>11:50</b></td>
+		</tr>
+        <tr>
+            <td>Michael Ford, Damian Glover and Lubna Dajani - S Africa</td>
+            <td>A Practical Approach To A Holistic Digital Twin</td>
+            <td>SW Eng</td>
+            <td><b>10/5/2022</b></td>
+            <td><b>25</b></td>
+            <td><b>11:50</b></td>
+            <td><b>12:15</b></td>
+		</tr>
+        <tr>
+            <td>LUNCH BREAK</td>
+            <td></td>
+            <td></td>
+            <td><b></b></td>
+            <td><b>Lunch Break</b></td>
+            <td><b>12:15</b></td>
+            <td><b>1:00</b></td>
+		</tr>
+        <tr>
+            <td>Rick Kuhn, Joshua Roberts, David Ferraiolo and Joanna DeFranco</td>
+            <td>A Distributed Ledger Technology Design using Hyperledger Fabric and a Clinical Trial Use Case</td>
+            <td>SW Eng</td>
+            <td><b>10/5/2022</b></td>
+            <td><b>26</b></td>
+            <td><b>1:00</b></td>
+            <td><b>1:25</b></td>
+		</tr>
+        <tr>
+            <td>Phillip Laplante and Rick Kuhn</td>
+            <td>AI Assurance for the Public -- Trust but Verify Continuously</td>
+            <td>SW Eng</td>
+            <td><b>10/5/2022</b></td>
+            <td><b>27</b></td>
+            <td><b>1:25</b></td>
+            <td><b>1:50</b></td>
+		</tr>
+        <tr>
+            <td>Narayanaa S R, Lekshmi R S and Sivaranjan M</td>
+            <td>Fault Localization in Cloud using Centrality Measures</td>
+            <td>SW Eng</td>
+            <td><b>10/5/2022</b></td>
+            <td><b>28</b></td>
+            <td><b>1:50</b></td>
+            <td><b>2:15</b></td>
+		</tr>
+        <tr>
+            <td>Megan Olsen and M S Raunak</td>
+            <td>Efficient Parameter Exploration of Simulation Studies</td>
+            <td>SW Eng</td>
+            <td><b>10/5/2022</b></td>
+            <td><b>29</b></td>
+            <td><b>2:15</b></td>
+            <td><b>2:40</b></td>
+		</tr>
+        <tr>
+            <td>BREAK</td>
+            <td></td>
+            <td></td>
+            <td><b></b></td>
+            <td><b>Break</b></td>
+            <td><b>2:40</b></td>
+            <td><b>3:00</b></td>
+		</tr>
+        <tr>
+            <td>Irena Bojanova, Carlos Eduardo Cardoso Galhardo and Sara Moshtari</td>
+            <td>Data Type Bugs Taxonomy: Integer Overflow, Juggling, and Pointer Arithmetics in Spotlight</td>
+            <td>SW Eng</td>
+            <td><b>10/5/2022</b></td>
+            <td><b>30</b></td>
+            <td><b>3:00</b></td>
+            <td><b>3:25</b></td>
+		</tr>
+        <tr>
+            <td>Charles Li</td>
+            <td>Carbon “Footprinting” IT</td>
+            <td>SW Eng</td>
+            <td><b>10/5/2022</b></td>
+            <td><b>31</b></td>
+            <td><b>3:25</b></td>
+            <td><b>3:50</b></td>
+		</tr>
+        <tr>
+            <td>Deema Alshoaibi, Ikram Chaabane, Kevin Hannigan, Mohamed Wiem Mkaouer and Ali Ouni</td>
+            <td>On the Detection of Performance Regression Introducing Code Changes: Experience from the Git Project</td>
+            <td>AI</td>
+            <td><b>10/5/2022</b></td>
+            <td><b></b></td>
+            <td><b>3:50</b></td>
+            <td><b>4:15</b></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+
+<!--========== END PROMO BLOCK ==========--><!-- // end row  --><!--========== END PAGE CONTENT ==========--><!--========== FOOTER ==========-->
+
+<footer class="g-bg-color--dark"><!-- Links -->
+<div class="g-hor-divider__dashed--white-opacity-lightest">
+<div class="container g-padding-y-80--xs">
+<div class="row">
+<div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
+<ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
+	<li><a class="g-font-size-15--xs g-color--white-opacity" href="index.html">Home</a></li>
+	<li><a class="g-font-size-15--xs g-color--white-opacity" href="about.html">About</a></li>
+	
+	<li><a class="g-font-size-15--xs g-color--white-opacity" href="contact.html">Contact</a></li>
+</ul>
+</div>
+
+<div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
+<ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
+	<li><a class="g-font-size-15--xs g-color--white-opacity" href="conorg.html">Committee</a></li>
+	<li><a class="g-font-size-15--xs g-color--white-opacity" href="submission.html">Paper Submission</a></li>
+</ul>
+</div>
+
+<div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1  g-padding-y-50--xs g-padding-y-0--md">
+
+</div>
+</div>
+</div>
+</div>
+<!-- End Links --></footer>
+<!--========== END FOOTER ==========--><!-- Back To Top --><!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========--><!-- Vendor --><script type="text/javascript" src="vendor/jquery.min.js"></script><script type="text/javascript" src="vendor/jquery.migrate.min.js"></script><script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script><script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script><script type="text/javascript" src="vendor/jquery.back-to-top.min.js"></script><script type="text/javascript" src="vendor/scrollbar/jquery.scrollbar.min.js"></script><script type="text/javascript" src="vendor/jquery.parallax.min.js"></script><script type="text/javascript" src="vendor/jquery.wow.min.js"></script><!-- General Components and Settings --><script type="text/javascript" src="js/global.min.js"></script><script type="text/javascript" src="js/components/header-sticky.min.js"></script><script type="text/javascript" src="js/components/scrollbar.min.js"></script><script type="text/javascript" src="js/components/wow.min.js"></script><!--========== END JAVASCRIPTS ==========--></body>
+<!-- End Body --></html>
